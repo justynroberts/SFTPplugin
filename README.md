@@ -99,7 +99,7 @@ Basic node definition (overwrite the default settings)
        osVersion="10.12.6" 
        username="vagrant" 
        node-executor="ssh-exec" 
-       file-copier="ssh-copier" 
+       file-copier="ssh-sftp-copier" 
        ssh-authentication="password"  
        ssh-password-storage-path ="keys/node/user.password" 
        ssh-options="-o ConnectTimeout=5000"/>
@@ -117,7 +117,7 @@ Using password from option Secure Remote Authentication
        osVersion="10.12.6" 
        username="vagrant" 
        node-executor="ssh-exec" 
-       file-copier="ssh-copier" 
+       file-copier="ssh-sftp-copier" 
        ssh-authentication="password"  
        ssh-password-option="option.password" 
        ssh-options="-o ConnectTimeout=5000"/>
@@ -136,7 +136,7 @@ Using dynamic username
        osVersion="10.12.6" 
        username="${job.username}" 
        node-executor="ssh-exec" 
-       file-copier="ssh-copier" 
+       file-copier="ssh-sftp-copier" 
        ssh-authentication="password"  
        ssh-password-option="option.password" 
        ssh-options="-o ConnectTimeout=5000"/>
@@ -154,7 +154,7 @@ Using dynamic username from job option
        osVersion="10.12.6" 
        username="${option.username}" 
        node-executor="ssh-exec" 
-       file-copier="ssh-copier" 
+       file-copier="ssh-sftp-copier" 
        ssh-authentication="password"  
        ssh-password-option="option.password" 
        ssh-options="-o ConnectTimeout=5000"/>
