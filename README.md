@@ -1,6 +1,6 @@
-# OpenSSH Node Execution Plugins
+# SFTP File Copier
 
-This plugin provides a node-executor and file-copier using OpenSSH. Use this plugin if you want to access remote servers using SSH/sftp commands (as an alternative to the default SSH plugin of Rundeck, which is a Java Plugin based on JSCH library).
+This plugin provides a node-executor and file-copier using SFTP. Use this plugin if you want to access remote servers using SSH/sftp commands (as an alternative to the default SSH plugin of Rundeck, which is a Java Plugin based on JSCH library).
 
 ## Requirements
 * Password Authentication and Passphrase need `sshpass` installed on the rundeck server.
