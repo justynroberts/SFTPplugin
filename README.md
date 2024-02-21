@@ -1,6 +1,12 @@
 # SFTP File Copier
 
+This plugin is a fork of the SSH File copier, with SFTP replacing SCP commands.
+Unzip the release, deploy to the plugin directory, and configure at a project or nodesource level.
+
+
 This plugin provides a node-executor and file-copier using SFTP. Use this plugin if you want to access remote servers using SSH/sftp commands (as an alternative to the default SSH plugin of Rundeck, which is a Java Plugin based on JSCH library).
+
+### Additional Documentation
 
 ## Requirements
 * Password Authentication and Passphrase need `sshpass` installed on the rundeck server.
